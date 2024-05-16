@@ -1,0 +1,95 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* light gray background */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* dark gray text */
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f; /* blue link color */
+}
+
+a:hover {
+  color: #00467f; /* darker blue link color on hover */
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333; /* dark gray header background */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff; /* white text on dark background */
+  font-size: 24px;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff; /* white section background */
+  padding: 20px;
+  margin: 20px;
+  width: calc(33.33% - 40px); /* 3 columns */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* light shadow */
+}
+
+section h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* light gray border */
+}
+
+section a:hover {
+  background-color: #f7f7f7; /* light gray background on hover */
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  section {
+    width: calc(50% - 40px); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 100%; /* 1 column on smallest screens */
+  }
+}
