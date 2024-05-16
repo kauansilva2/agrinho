@@ -28,7 +28,7 @@ a:hover {
 /* Header Styles */
 
 header {
-  background-color: #000000; /* dark gray header background */
+  background-color: #ff0000; /* dark gray header background */
   padding: 20px;
   text-align: center;
 }
@@ -48,7 +48,7 @@ main {
 }
 
 section {
-  background-color: #fff; /* white section background */
+  background-color: #ffffff5e; /* white section background */
   padding: 20px;
   margin: 20px;
   width: calc(33.33% - 40px); /* 3 columns */
@@ -73,11 +73,11 @@ section li {
 section a {
   display: block;
   padding: 10px;
-  border-bottom: 1px solid #fffd6c; /* light gray border */
+  border-bottom: 1px solid #2f00ff; /* light gray border */
 }
 
 section a:hover {
-  background-color: #ffe25e; /* light gray background on hover */
+  background-color: #0400ff; /* light gray background on hover */
 }
 
 /* Responsive Design */
