@@ -12,23 +12,23 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333; /* dark gray text */
+  color: #2f00ff; /* dark gray text */
   margin-bottom: 10px;
 }
 
 a {
   text-decoration: none;
-  color: #00698f; /* blue link color */
+  color: #c70042; /* blue link color */
 }
 
 a:hover {
-  color: #00467f; /* darker blue link color on hover */
+  color: #bb0048; /* darker blue link color on hover */
 }
 
 /* Header Styles */
 
 header {
-  background-color: #333; /* dark gray header background */
+  background-color: #000000; /* dark gray header background */
   padding: 20px;
   text-align: center;
 }
