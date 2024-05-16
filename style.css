@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-  color: #fff; /* white text on dark background */
+  color: #00a2ffaf; /* white text on dark background */
   font-size: 24px;
 }
 
@@ -73,11 +73,11 @@ section li {
 section a {
   display: block;
   padding: 10px;
-  border-bottom: 1px solid #ddd; /* light gray border */
+  border-bottom: 1px solid #fffd6c; /* light gray border */
 }
 
 section a:hover {
-  background-color: #f7f7f7; /* light gray background on hover */
+  background-color: #ffe25e; /* light gray background on hover */
 }
 
 /* Responsive Design */
