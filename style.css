@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* light gray background */
+  background-color: #f0f0f04b; /* light gray background */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,13 +28,13 @@ a:hover {
 /* Header Styles */
 
 header {
-  background-color: #ff0000; /* dark gray header background */
+  background-color: #00b42d; /* dark gray header background */
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  color: #00a2ffaf; /* white text on dark background */
+  color: #000000af; /* white text on dark background */
   font-size: 24px;
 }
 
