@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 header {
-  display: flex;
   background-color: #00ff0d;
   color: #fff;
   text-align: center;
