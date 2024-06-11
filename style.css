@@ -1,51 +1,8 @@
-header {
-  background-color: #4CAF50; /* Cor verde associada à agricultura */
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Estilo para as imagens das atividades agrícolas */
-.img-agricultura {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border: 2px solid #4CAF50;
-  margin: 10px;
-}
-
-/* Estilo para os links de navegação */
-nav a {
-  color: #333;
-  text-decoration: none;
-  padding: 5px;
-}
-
-/* Estilo para os botões */
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-/* Estilo para a seção de notícias */
-.news-section {
+body {
+  font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  padding: 20px;
 }
-
-/* Estilo para os títulos das notícias */
-.news-title {
-  font-size: 24px;
-  font-weight: bold;
+h1 {
+  color: #007f3d;
 }
-
-/* Estilo para o rodapé */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
+/* Adicione mais estilos conforme necessário */
